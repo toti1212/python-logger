@@ -1,0 +1,21 @@
+{
+  "name": "python-logger",
+  "private": true,
+  "readme": "./README.md",
+  "repository": "https://github.com/toti1212/python-logger",
+  "main": "./lib/python-logger",
+  "version": "0.0.1",
+  "description": "Python Logger shortcuts for dev faster",
+  "keywords": [ "python", "log", "logger", "debug", "debugging"
+  ],
+  "activationCommands": {
+    "atom-workspace": "python-logger:toggle"
+  },
+  "repository": "https://github.com/atom/python-logger",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

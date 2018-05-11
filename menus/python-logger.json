@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle python-logger",
+        "command": "python-logger:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "python-logger",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "python-logger:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
